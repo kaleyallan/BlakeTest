@@ -1,12 +1,18 @@
 body {
-	background-color: darkslategrey;
+	background-color: #D2A1A4;
 	font-size: 100%
 }
 
+
+
 #title {
-	color: white;
 	font-size: 1.5em;
-	font-family: sans-serif;
+	font-family: 'Playball',cursive;
+	width:87%;
+	margin:3em;
+	background-image:url("compass.jpg");
+	padding:0.5em;
+	
 }
 
 #mainColumn {
@@ -15,8 +21,9 @@ body {
 }
 #nav {
 	width: 20%;
+	font-family: sans-serif;
 	float: left;
-	background: lightgrey;
+	background: #B3C3C6;
 	padding: 0 .25em;
 }
 #nav h2{
@@ -25,9 +32,10 @@ body {
 #content {
 	float: left;
 	width: 75%;
-	background-color: white;
+	background-color: #FFFEE6;
 	padding: 1em;
 	font-family: serif;
+	
 }
 #illustration {
 	text-align: center;
